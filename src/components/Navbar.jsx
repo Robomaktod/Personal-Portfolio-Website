@@ -1,5 +1,7 @@
 import React from "react";
 
+import { hamburger } from "../assets/icons/index"
+
 import { navLinks } from "../constants/index"
 // import { INavLink } from "../types/index"
 
@@ -7,6 +9,7 @@ const Navbar = () => {
     return (
         <header className="fixed inset-x-0 top-10 h-17 flex mx-auto w-5/6 justify-between center rounded-b-3xl text-center text-indigo-200 bg-opacity-90">
             <h1> Navbar </h1>
+
             <ul className="flex space-x-12 max-lg:hidden">
                 {navLinks.map((link) => {
                     return(
@@ -18,6 +21,10 @@ const Navbar = () => {
                     )
                 })}
             </ul>
+
+            <div className="hidden max-lg:block">
+                <img src={hamburger} alt="hamburger" width={30} height={30} /> 
+            </div> 
         </header>
     );
 };
