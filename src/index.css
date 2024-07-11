@@ -11,6 +11,6 @@
 
 @layer components{
     .navbar{
-        @apply fixed inset-x-0 top-10 flex mx-auto w-5/6 justify-between rounded-b-3xl text-center text-indigo-200 bg-opacity-90;
+        @apply fixed inset-x-0 top-10 flex mx-auto w-5/6 justify-between rounded-b-3xl text-center text-indigo-200 bg-opacity-90 ;
     }
 }
