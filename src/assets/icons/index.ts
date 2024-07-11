@@ -1,4 +1,4 @@
-import hamburger from './hamburger.svg'
+import hamburger from './hamburger-menu.svg'
 
 export {
     hamburger,
